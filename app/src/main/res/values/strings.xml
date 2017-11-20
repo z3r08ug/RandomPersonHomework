@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RandomPersonHomework</string>
+    <string name="show_random_user">Show Random User</string>
+    <string name="show_random_users">Show Random Users</string>
+    <string name="random_person_generator">Random Person Generator</string>
+    <string name="show_random_female_users">Show Random Female Users</string>
+    <string name="show_random_male_users">Show Random Male Users</string>
+    <string name="random_female_users">Random Female Users</string>
+    <string name="random_male_users">Random Male Users</string>
+    <string name="random_users">Random Users</string>
+    <string name="random_user_info">Random User Info</string>
+</resources>

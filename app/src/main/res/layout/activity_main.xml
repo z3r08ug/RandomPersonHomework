@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.uublabs.randompersonhomework.MainActivity"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:textSize="@dimen/std_header"
+        android:gravity="center"
+        android:text="@string/random_person_generator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGetRandomUser"
+        android:onClick="handleCalls"
+        android:textSize="@dimen/btn_std"
+        android:text="@string/show_random_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGetRandomUsers"
+        android:onClick="handleCalls"
+        android:text="@string/show_random_users"
+        android:textSize="@dimen/btn_std"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGetRandomFemales"
+        android:onClick="handleCalls"
+        android:text="@string/show_random_female_users"
+        android:textSize="@dimen/btn_std"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGetRandomMales"
+        android:onClick="handleCalls"
+        android:text="@string/show_random_male_users"
+        android:textSize="@dimen/btn_std"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

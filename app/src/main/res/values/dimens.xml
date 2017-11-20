@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_std">30sp</dimen>
+    <dimen name="std_list_text">35sp</dimen>
+    <dimen name="std_list_padding">15dp</dimen>
+    <dimen name="std_header">50sp</dimen>
+</resources>
